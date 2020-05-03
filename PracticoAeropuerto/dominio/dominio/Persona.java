@@ -5,7 +5,7 @@ public class Persona {
 	private String apellido;
 	private String nombre;
 	
-	//Metodos
+
 	public Persona(String apellido, String nombre) {
 		this.apellido = apellido;
 		this.nombre = nombre;

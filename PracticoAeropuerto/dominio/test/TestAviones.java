@@ -13,32 +13,27 @@ import dominio.Tripulante;
 class TestAviones {
 
 	@Test
-	void test01_MetodosDePersona() {
+	void test01_MetodoGetPersona() {
 		
-		String apellido = "Morales";
-		String nombre = "Nancy";
-		String esperado = "MORALES Nancy Yesica";
+		Persona p1 = new Persona("Morales","Nancy Yesica");
 		
-		Persona p1 = new Persona(apellido,nombre);
-		
-		
-		String actual1 = p1.getApellido();
-		String actual2 = p1.getNombre();
-		
-		assertEquals(apellido, actual1);
-		assertEquals(nombre, actual2);
+		assertEquals("Morales", p1.getApellido());
+		assertEquals("Nancy Yesica", p1.getNombre());
+	}
+	
+	@Test
+	void test001_MetodoSetPersona() {
+		Persona p1 = new Persona("Morales","Nancy Yesica");
 		
 		p1.setApellido("MORALES");
-		p1.setNombre("Nancy Yesica");
+		p1.setNombre("Nancy Yesica Belen");
 		
-		String actual3 = p1.getApellido();
-		String actual4 = p1.getNombre();
-		String actual5 = p1.toString();
+		assertEquals("MORALES", p1.getApellido());
+		assertEquals("Nancy Yesica Belen", p1.getNombre());
 		
-		assertEquals("MORALES", actual3);
-		assertEquals("Nancy Yesica", actual4);
-		assertEquals("MORALES Nancy Yesica", actual5);
 	}
+	
+	
 	
 	@Test
 	void test02_MetodosCiudad(){
