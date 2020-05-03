@@ -2,49 +2,35 @@ package dominio;
 
 public class Pasajero extends Persona{
 
-	private int asiento;
-	private String fila;
+	private String visa;
 	
 	
-	public Pasajero(String apellido, String nombre) {
+	public Pasajero(String apellido, String nombre, String visa) {
 		super(apellido, nombre);
-		this.asiento = 0;
-		this.fila = "";
+		this.visa=visa;
 	}
 	
-	public Pasajero(String apellido, String nombre,int asiento,String fila) {
-		super(apellido, nombre);
-		this.asiento = asiento;
-		this.fila = fila;
-	}
 
-	public int getAsiento() {
-		return asiento;
-	}
-
-
-	public String getFila() {
-		return fila;
-	}
 
 	@Override
 	public String toString() {
-		return super.toString()+" - "+asiento+fila;
+		return super.toString()+" - "+visa;
 	}
+
+
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result + asiento;
-		result = prime * result + ((fila == null) ? 0 : fila.hashCode());
+		result = prime * result + ((visa == null) ? 0 : visa.hashCode());
 		return result;
 	}
 
+
+
 	@Override
 	public boolean equals(Object obj) {
-		if(super.equals(obj) == false)
-			return false;
 		if (this == obj)
 			return true;
 		if (!super.equals(obj))
@@ -52,21 +38,13 @@ public class Pasajero extends Persona{
 		if (getClass() != obj.getClass())
 			return false;
 		Pasajero other = (Pasajero) obj;
-		if (asiento != other.asiento)
-			return false;
-		if (fila == null) {
-			if (other.fila != null)
+		if (visa == null) {
+			if (other.visa != null)
 				return false;
-		} else if (!fila.equals(other.fila))
+		} else if (!visa.equals(other.visa))
 			return false;
 		return true;
 	}
-
-	
-	
-	
-	
-	
 	
 
 }
