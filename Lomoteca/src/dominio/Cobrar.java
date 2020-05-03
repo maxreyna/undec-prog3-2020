@@ -8,7 +8,7 @@ public class Cobrar {
 	}
 	
 	public boolean cobrarConTarjeta() {
-		System.out.print("cobrar con tarjeta");
+		System.out.print("cobrar con tarjeta de credito");
 		return true;
 	}
 	
