@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7deb4269-d3e5-419d-a928-35dbd4ddffa5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -19,6 +46,91 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VueloTest">
+    <configuration name="AerolineaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GestionAeropuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AerolineaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PilotoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GestionAeropuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PilotoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PilotoTest.test01RegistrarPiloto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GestionAeropuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PilotoTest" />
+      <option name="METHOD_NAME" value="test01RegistrarPiloto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VueloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GestionAeropuerto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VueloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VueloTest" />
+        <item itemvalue="JUnit.AerolineaTest" />
+        <item itemvalue="JUnit.PilotoTest" />
+        <item itemvalue="JUnit.PilotoTest.test01RegistrarPiloto" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,5 +144,64 @@
       <updated>1589866084411</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="525" y="355" width="357" height="332" key="#Notifications" timestamp="1589872196426">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="525" y="355" width="357" height="332" key="#Notifications/0.0.1280.984@0.0.1280.984" timestamp="1589872196426" />
+    <state x="120" y="66" key="#Project_Structure" timestamp="1589872109146">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="120" y="66" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1589872109146" />
+    <state x="1337" y="101" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589921000059">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1337" y="101" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589921000059" />
+    <state x="1948" y="220" width="390" height="712" key="#com.intellij.ide.util.MemberChooser" timestamp="1589954081561">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1948" y="220" width="390" height="712" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589954081561" />
+    <state x="445" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1589871673342" />
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589868669359">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.984@0.0.1280.984" timestamp="1589868669359" />
+    <state width="1877" height="173" key="GridCell.Tab.0.bottom" timestamp="1589956428953">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="173" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589956428953" />
+    <state width="1877" height="173" key="GridCell.Tab.0.center" timestamp="1589956428952">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="173" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589956428952" />
+    <state width="1877" height="173" key="GridCell.Tab.0.left" timestamp="1589956428952">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="173" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589956428952" />
+    <state width="1877" height="173" key="GridCell.Tab.0.right" timestamp="1589956428952">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="173" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589956428952" />
+    <state x="1573" y="96" key="SettingsEditor" timestamp="1589951643257">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1573" y="96" key="SettingsEditor/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589951643257" />
+    <state x="1897" y="322" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589948061054">
+      <screen x="1280" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1897" y="322" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1920.1040@1280.0.1920.1040" timestamp="1589948061054" />
+    <state x="411" y="305" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984@0.0.1280.984" timestamp="1589868699785" />
   </component>
 </project>
