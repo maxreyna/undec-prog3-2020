@@ -3,6 +3,8 @@ package dominio;
 import exception.AvionErroneoException;
 import exception.VueloDatoNuloException;
 
+import java.util.Objects;
+
 public class Vuelo {
     private String fechaDeSalida;
     private String fechaDeLlegada;
@@ -72,4 +74,33 @@ public class Vuelo {
         this.aerolineaACargo = aerolineaACargo;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Vuelo)) return false;
+        Vuelo vuelo = (Vuelo) o;
+        return Objects.equals(fechaDeSalida, vuelo.fechaDeSalida) &&
+                Objects.equals(fechaDeLlegada, vuelo.fechaDeLlegada) &&
+                Objects.equals(horaDeSalida, vuelo.horaDeSalida) &&
+                Objects.equals(horaDeLlegada, vuelo.horaDeLlegada) &&
+                Objects.equals(codigoDeVuelo, vuelo.codigoDeVuelo) &&
+                Objects.equals(aerolineaACargo, vuelo.aerolineaACargo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(fechaDeSalida, fechaDeLlegada, horaDeSalida, horaDeLlegada, codigoDeVuelo, aerolineaACargo);
+    }
+
+    @Override
+    public String toString() {
+        return "Vuelo{" +
+                "fechaDeSalida='" + fechaDeSalida + '\'' +
+                ", fechaDeLlegada='" + fechaDeLlegada + '\'' +
+                ", horaDeSalida='" + horaDeSalida + '\'' +
+                ", horaDeLlegada='" + horaDeLlegada + '\'' +
+                ", codigoDeVuelo='" + codigoDeVuelo + '\'' +
+                ", aerolineaACargo=" + aerolineaACargo +
+                '}';
+    }
 }

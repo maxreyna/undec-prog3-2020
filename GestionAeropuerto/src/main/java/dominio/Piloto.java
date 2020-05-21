@@ -3,6 +3,8 @@ package dominio;
 import exception.PilotoErroneoException;
 import exception.PilotoDatoNuloException;
 
+import java.util.Objects;
+
 public class Piloto {
     private String nombre;
     private String apellido;
@@ -60,5 +62,33 @@ public class Piloto {
 
     public void setMiRol(Rol miRol) {
         this.miRol = miRol;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Piloto)) return false;
+        Piloto piloto = (Piloto) o;
+        return Objects.equals(nombre, piloto.nombre) &&
+                Objects.equals(apellido, piloto.apellido) &&
+                Objects.equals(cuil, piloto.cuil) &&
+                Objects.equals(legajo, piloto.legajo) &&
+                miRol == piloto.miRol;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, apellido, cuil, legajo, miRol);
+    }
+
+    @Override
+    public String toString() {
+        return "Piloto{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", cuil='" + cuil + '\'' +
+                ", legajo='" + legajo + '\'' +
+                ", miRol=" + miRol +
+                '}';
     }
 }
